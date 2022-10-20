@@ -15,7 +15,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install package dependencies
         run: npm ci
-      - run: npm test
+      - run: npm test --passWithNoTests
         env:
           CI: true
       - name: Semantic Release
