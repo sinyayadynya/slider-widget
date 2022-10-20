@@ -1,3 +1,12 @@
 module.exports = {
-  plugins: [require('postcss-wrap')({ selector: '.widget-instance' })],
-};
+  plugins: {
+    'postcss-wrap': {
+      selector: '[.widget-instance]',
+    },
+    tailwindcss: {},
+    autoprefixer: {},
+    'postcss-focus-visible': {
+      replaceWith: '[data-focus-visible-added]',
+    },
+  },
+}

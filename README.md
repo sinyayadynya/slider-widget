@@ -2,7 +2,7 @@
 
 This example contains documentation and example code for creating widgets using React.
 
-[View the demo](https://js-widgets.github.io/example-widget/index.html)
+[View the demo](https://sinyayadynya.github.io/slider-widget/index.html)
 
 ## Requirements
 
@@ -235,21 +235,10 @@ Create all translation messages in `src/messages.js`, following the provided exa
 
 | Language               | Code  |
 | ---------------------- | ----- |
-| Arabic                 | ar    |
-| German                 | de    |
 | English                | en    |
 | Spanish                | es    |
-| Latin American Spanish | esla  |
 | French                 | fr    |
-| Italian                | it    |
-| Japanese               | ja    |
-| Korean                 | ko    |
-| Polish                 | pl    |
-| Portuguese             | pt    |
 | Russian                | ru    |
-| Turkish                | tr    |
-| Simplified Chinese     | zh-cn |
-| Traditional Chinese    | zh-tw |
 
 ### Typescript
 
@@ -272,4 +261,4 @@ This boilerplate is setup to use [Jest](https://jestjs.io/) and [@testing-librar
 ## Current Maintainer(s)
 
 - Mateu Aguiló Bosch ([e0ipso](https://github.com/e0ipso))
-- Hunter MacDermut ([huntermacd](https://github.com/huntermacd))
+- SinyayaDynya ([sinyayadynya](https://github.com/sinyayadynya))
