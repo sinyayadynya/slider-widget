@@ -2,7 +2,7 @@
 
 This example contains documentation and example code for creating widgets using React.
 
-[View the demo](https://sinyayadynya.github.io/slider-widget/index.html)
+[View the demo](https://sinyayadynya.github.io/slider-widget/build/index.html)
 
 
 ## Current Maintainer(s)
