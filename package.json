@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://nomadsland.travel",
+  "homepage": "https://github.com/sinyayadynya/slider-widget",
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "clsx": "^1.2.1",
