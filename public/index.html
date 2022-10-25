@@ -12,18 +12,18 @@
     <section>
       <div>
         <article class="message is-dark">
-            <div class="message-header">
-              <p>⚠⬇ Your widget embedded here ⬇⚠</p>
-              <button class="delete" aria-label="delete"></button>
+          <div class="message-header">
+            <p>⚠⬇ Your widget embedded here ⬇⚠</p>
+            <button class="delete" aria-label="delete"></button>
+          </div>
+          <div class="message-body">
+            <!-- START: WIDGET -->
+            <div id="slider-widget" class="widget-instance">
+              <progress class="progress is-small is-primary" max="100">0%</progress>
             </div>
-            <div class="message-body">
-              <!-- START: WIDGET -->
-              <div id="slider-widget" class="widget-instance">
-                <progress class="progress is-small is-primary" max="100">0%</progress>
-              </div>
-              <!-- END: WIDGET -->
-            </div>
-          </article>
+            <!-- END: WIDGET -->
+          </div>
+        </article>
       </div>
     </section>
     <script src="//js-widgets.github.io/widget-registry-boilerplate/widget-registry/production/loader.js"></script>
@@ -37,7 +37,7 @@
           origin: 'https://js-widgets.github.io',
           renderFunctionName: 'renderSliderWidget',
         },
-      ]);
+      ])
     </script>
   </body>
 </html>

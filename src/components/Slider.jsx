@@ -3,6 +3,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
+import { FormattedMessage } from 'react-intl'
 
 import { AppScreen } from './AppScreen'
 import { Container } from './Container'
@@ -169,7 +170,9 @@ function ToursScreen({ custom, animated = false }) {
     <AppScreen className="w-full">
       <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})}>
         <MotionAppScreenHeader {...(animated ? headerAnimation : {})}>
-          <AppScreen.Title>Choose a tour</AppScreen.Title>
+          <AppScreen.Title>
+            <FormattedMessage id="slider.tours-intro" defaultMessage="Choose a tour" />
+          </AppScreen.Title>
           <AppScreen.Subtitle>
             More than <span className="text-white">30 ready made tours</span> to choose from.
           </AppScreen.Subtitle>

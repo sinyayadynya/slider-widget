@@ -1,10 +1,5 @@
 {
-  "availableTranslations": [
-    "en",
-    "es",
-    "fr",
-    "ru"
-  ],
+  "availableTranslations": ["en", "es", "fr", "ru"],
   "description": "This block contains code for frontpage slider widget using React.",
   "externalPeerDependencies": {
     "react": {

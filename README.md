@@ -4,7 +4,6 @@ This example contains documentation and example code for creating widgets using 
 
 [View the demo](https://sinyayadynya.github.io/slider-widget/build/index.html)
 
-
 ## Current Maintainer(s)
 
 - SinyayaDynya ([sinyayadynya](https://github.com/sinyayadynya))
