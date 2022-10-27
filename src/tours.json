@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Ski-touring on the Suusamyr and Ferghana range",
+    "duration": "11 Days",
+    "type": "Adventure tours",
+    "image": "https://nomadsland.travel/sites/default/files/styles/card_slide/public/2020-04/img_2483.jpg.webp?itok=yuLhwSS-",
+    "url": "https://nomadsland.travel/en/offers/private-tours/ski-touring-suusamyr-and-ferghana-range"
+  },
+  {
+    "id": 2,
+    "title": "Skiing the Tien Shan",
+    "duration": "10 Days",
+    "type": "Winter tours",
+    "image": "https://nomadsland.travel/sites/default/files/styles/card_slide/public/media/image/img_7122.jpg.webp?itok=Ow8Dk9w5",
+    "url": "https://nomadsland.travel/en/offers/private-tours/skiing-tien-shan"
+  },
+  {
+    "id": 3,
+    "title": "Explore Kyrgyzstan On Skis",
+    "duration": "12 Days",
+    "type": "Winter tours",
+    "image": "https://nomadsland.travel/sites/default/files/styles/card_slide/public/media/image/img_6958.jpg.webp?itok=2XzmZR38",
+    "url": "https://nomadsland.travel/en/offers/private-tours/explore-kyrgyzstan-skis"
+  },
+  {
+    "id": 4,
+    "title": "Ski touring on the Suusamyr range",
+    "duration": "3 Days",
+    "type": "Winter tours",
+    "image": "https://nomadsland.travel/sites/default/files/styles/card_slide/public/media/image/img_8137.jpg.webp?itok=Qr7f-WTP",
+    "url": "https://nomadsland.travel/en/offers/private-tours/ski-touring-suusamyr-range"
+  }
+]

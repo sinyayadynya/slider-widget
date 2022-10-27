@@ -5,8 +5,8 @@ module.exports = {
     },
     // tailwindcss: {},
     // autoprefixer: {},
-    'postcss-focus-visible': {
-      replaceWith: '[data-focus-visible-added]',
-    },
+    // 'postcss-focus-visible': {
+    //   replaceWith: '[data-focus-visible-added]',
+    // },
   },
 };

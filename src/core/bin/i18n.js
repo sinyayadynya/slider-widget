@@ -23,6 +23,12 @@ export default class i18n {
   }
 
   mapLocale(langcode) {
+    // Specific overrides.
+    switch (langcode) {
+      default:
+        return langcode;
+    }
+
     // Check messages for locale
     if (typeof localeData[langcode.toLowerCase()] !== 'undefined') {
       return langcode.toLowerCase();
