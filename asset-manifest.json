@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "https://sinyayadynya.github.io/slider-widget/css/main.css",
+    "main.css": "https://sinyayadynya.github.io/slider-widget/css/style.css",
     "main.js": "https://sinyayadynya.github.io/slider-widget/js/main.js",
     "main.js.map": "https://sinyayadynya.github.io/slider-widget/js/main.js.map",
-    "css/main.css.map": "https://sinyayadynya.github.io/slider-widget/css/main.css.map",
+    "css/style.css.map": "https://sinyayadynya.github.io/slider-widget/css/style.css.map",
     "index.html": "https://sinyayadynya.github.io/slider-widget/index.html",
     "js/main.js.LICENSE.txt": "https://sinyayadynya.github.io/slider-widget/js/main.js.LICENSE.txt",
     "static/css/main.0808d540.css.map": "https://sinyayadynya.github.io/slider-widget/static/css/main.0808d540.css.map",
@@ -11,7 +11,7 @@
   },
   "entrypoints": [
     "static/css/main.0808d540.css",
-    "css/main.css",
+    "css/style.css",
     "js/main.js"
   ]
 }
