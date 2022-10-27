@@ -23,7 +23,7 @@ module.exports = {
           maxChunks: 1,
         }),
         new MiniCssExtractPlugin({
-          filename: 'css/[name].css',
+          filename: 'css/style.css',
         }),
       ],
       output: {
