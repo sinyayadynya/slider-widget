@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "https://sinyayadynya.github.io/slider-widget/css/main.css",
+    "main.js": "https://sinyayadynya.github.io/slider-widget/js/main.js",
+    "main.js.map": "https://sinyayadynya.github.io/slider-widget/js/main.js.map",
+    "css/main.css.map": "https://sinyayadynya.github.io/slider-widget/css/main.css.map",
+    "index.html": "https://sinyayadynya.github.io/slider-widget/index.html",
+    "js/main.js.LICENSE.txt": "https://sinyayadynya.github.io/slider-widget/js/main.js.LICENSE.txt",
+    "static/css/main.0808d540.css.map": "https://sinyayadynya.github.io/slider-widget/static/css/main.0808d540.css.map",
+    "static/media/index.css": "https://sinyayadynya.github.io/slider-widget/static/media/Inter-roman.var.ba4caefc.woff2"
+  },
+  "entrypoints": [
+    "static/css/main.0808d540.css",
+    "css/main.css",
+    "js/main.js"
+  ]
+}
