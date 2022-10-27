@@ -5,30 +5,24 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/sinyayadynya/slider-widget",
+  "homepage": "https://sinyayadynya.github.io/slider-widget",
   "dependencies": {
     "@headlessui/react": "^1.7.3",
-    "clsx": "^1.2.1",
-    "focus-visible": "^5.2.0",
-    "framer-motion": "^7.5.2",
-    "mini-css-extract-plugin": "^2.6.1",
-    "postcss-focus-visible": "^7.1.0",
+    "framer-motion": "^7.6.1",
     "postcss-wrap": "^0.0.4",
-    "prop-types": "^15.8.1",
+    "prop-types": "^15.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-intl": "^5.10.6",
-    "react-intl-translations-manager": "^5.0.3",
-    "react-scripts": "^5.0.1",
-    "use-debounce": "^8.0.4"
+    "react-intl": "^6.2.1",
+    "react-intl-translations-manager": "^5.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && rimraf ./build/static",
+    "start": "craco start",
+    "build": "craco build && rimraf ./build/static",
     "build:locales": "formatjs extract './src/messages.js' --messages-dir './messages' && node './src/core/scripts/build-locales.js' && rm -rvf './messages'",
     "build:gh-pages": "npm run build && gh-pages -d build",
-    "test": "react-scripts test",
-    "test:ci": "react-scripts test --watchAll=false",
+    "test": "craco test",
+    "test:ci": "craco test --watchAll=false",
     "lint:fix": "eslint --fix . && prettier --write .",
     "lint": "eslint . && prettier --check .",
     "use-typescript": "node src/core/scripts/use-typescript.js"
@@ -36,12 +30,11 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@craco/craco": "^6.0.0",
     "@formatjs/cli": "^1.7.5",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^7.1.2",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
     "autoprefixer": "^10.4.12",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.0",
@@ -49,12 +42,10 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.10",
     "postcss": "^8.4.18",
-    "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
-    "raw-loader": "^4.0.2",
+    "prettier": "^2.2.1",
+    "react-scripts": "^4.0.1",
     "rimraf": "^3.0.2",
-    "semantic-release": "^19.0.5",
-    "tailwindcss": "^3.2.0",
-    "webpack": "^5.74.0"
+    "semantic-release": "^17.0.8",
+    "tailwindcss": "^3.2.1"
   }
 }

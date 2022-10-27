@@ -1,6 +1,4 @@
 name: website
-runs:
-  using: 'node16'
 
 on:
   push:
@@ -10,14 +8,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node
+        uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install package dependencies
         run: npm ci
-      - run: npm test --passWithNoTests
+      - run: npm test
         env:
           CI: true
       - name: Semantic Release
@@ -29,7 +27,7 @@ jobs:
       - name: Build
         run: npm run-script build
         env:
-          PUBLIC_URL: 'https://github.com/sinyayadynya/slider-widget'
+          PUBLIC_URL: 'https://sinyayadynya.github.io/slider-widget'
       - name: Deploy to GitHub Pages
         if: ${{ success() }}
         uses: crazy-max/ghaction-github-pages@v2

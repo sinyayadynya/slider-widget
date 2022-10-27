@@ -42,7 +42,7 @@ function render(instanceId, langCode, origin, cb) {
   // Do widget stuff
 }
 
-window.renderSliderWidget = render;
+window.renderExampleWidget = render;
 ```
 
 ### Loading assets

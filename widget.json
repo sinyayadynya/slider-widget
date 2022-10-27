@@ -1,17 +1,34 @@
 {
   "availableTranslations": ["en", "es", "fr", "ru"],
-  "description": "This block contains code for frontpage slider widget using React.",
+  "description": "This example contains documentation and example code for creating widgets using React.",
+  "settingsSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "fields": {
+        "type": "object",
+        "properties": {
+          "button-text": {
+            "type": "string",
+            "title": "Button text",
+            "description": "Some random string to be displayed when the widget is rendered.",
+            "examples": ["I am a button", "Please, click me", "CLICK"]
+          }
+        }
+      }
+    }
+  },
   "externalPeerDependencies": {
     "react": {
-      "src": "https://unpkg.com/react@^18/umd/react.production.min.js"
+      "src": "https://unpkg.com/react@^17/umd/react.production.min.js"
     },
     "react-dom": {
-      "src": "https://unpkg.com/react-dom@^18/umd/react-dom.production.min.js"
+      "src": "https://unpkg.com/react-dom@^17/umd/react-dom.production.min.js"
     },
     "react-intl": {
       "src": "https://unpkg.com/react-intl-bundle@^1/dist/react-intl.production.min.js"
     }
   },
-  "title": "Slider Widget",
-  "status": "stable"
+  "title": "Template Widget",
+  "status": "wip"
 }
